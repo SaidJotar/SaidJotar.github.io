@@ -35,7 +35,7 @@ if ($resultado=mysqli_query($db_connection,$sql))
 if($rowcount > 0){
 echo "<script>
                 alert('Eroor: Correo electrónico ya en uso');
-                window.location= 'login.html'
+                window.location= 'index.html'
     </script>";
 exit; 
 } else {
@@ -51,7 +51,7 @@ if (!$retry_value) {
 	
 echo "<script>
                 alert('En breves nos pondremos en contacto con usted');
-                window.location= 'login.html'
+                window.location= 'index.html'
     </script>";
 }
  

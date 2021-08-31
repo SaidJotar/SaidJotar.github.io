@@ -17,7 +17,7 @@ $subs_password = utf8_decode($_GET['password']);
 if($subs_email == "" || $subs_password == ""){
  echo "<script>
 			alert('You have to write yourE-mail and Password');
-			window.location= 'login.html'
+			window.location= 'index.html'
 </script>";
 exit;
 }
@@ -38,7 +38,7 @@ exit;
 
 echo "<script>
                 alert('Datos incorrectos');
-                window.location= 'login.html'
+                window.location= 'index.html'
     </script>";
 }
  
